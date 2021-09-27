@@ -23,3 +23,5 @@ You can create a new environment and replicate the one used to run these noteboo
 conda env create -f environment.yml
 ```
 
+# During running
+When running the Jupyter notebook please note that before running each section, the kernel should be restart (Kernel >> Restart) in case the `%cd` command is wrong.
