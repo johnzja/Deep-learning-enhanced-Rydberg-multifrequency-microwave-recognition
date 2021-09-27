@@ -3,6 +3,9 @@ Source code and data for the paper:
 > Zong-Kai Liu, Li-Hua Zhang, Bang Liu, Zheng-Yuan Zhang, Guang-Can Guo, Dong-Sheng Ding, and Bao-Sen Shi, ***Deep learning enhanced Rydberg multifrequency microwave recognition***, [ ]( ).
 
 
+# Abstract
+Recognition of multifrequency microwave (MW) electric fields is challenging because of the complex interference of multifrequency fields in practical applications. Due to the exaggerated properties of Rydberg atoms, exploration of Rydberg atom-based measurements for multifrequency MW electric fields is promising in MW radar and MW communications. However, Rydberg atoms are sensitive not only to the MW signal but also to noise from atomic collisions and the environment, meaning that solution of the governing Lindblad master equation of light-atom interactions is complicated by the inclusion of noise and high-order terms. Here, we solve these problems by combining Rydberg atoms with deep learning model, demonstrating that this model uses the sensitivity of the Rydberg atoms while also reducing the impact of noise without solving the master equation. As a proof-of-principle demonstration, the deep learning enhanced Rydberg receiver allows direct decoding of the frequency-division multiplexed (FDM) signal without application of multiple band-pass filters and other complex circuits. An FDM phase shift keying signal carrying a QR code with noise is decoded effectively and the information transmission rate is 900 kbps for four bins with accuracy of 99.32$\%$. The new type of sensing technology for multifrequency MW fields reported here is expected to benefit Rydberg-based MW fields sensing and communication.
+
 # Content
 
 - [`notebook`](./notebook). Jupyer notebooks containing code and explanations to reproduce the results of the paper.
