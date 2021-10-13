@@ -6,4 +6,5 @@
 - [`20bins_fitting.nb`] contains the fitting results of the master equation for 20 mw bins with \Delta f=2MHz.
 - [`200MHz_fitting.nb`] contains the fitting results of the master equation for 4 bins with \Delta f=200MHz.
 
+Some results in Mathematica notebook are visualized in `deep_learning.ipynb`.
 Note that before you run the fitting in `4bins_fitting.nb`, the code in section "Data for additional noise" of `deep_learning.ipynb` must be run first.
