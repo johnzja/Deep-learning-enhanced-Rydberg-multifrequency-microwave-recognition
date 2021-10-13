@@ -10,7 +10,7 @@ Recognition of multifrequency microwave (MW) electric fields is challenging beca
 
 - [`notebook`](./notebook). Jupyer notebooks containing code and explanations to reproduce the results of the paper.
 - [`data`](./data). Contains the datasets used in the notebooks.
-- [`results`](./results). The results are saved here.
+
 
 # Requirements
 
