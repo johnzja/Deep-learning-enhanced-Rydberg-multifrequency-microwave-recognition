@@ -1,6 +1,6 @@
 Source code and data for the paper:
 
-> Zong-Kai Liu, Li-Hua Zhang, Bang Liu, Zheng-Yuan Zhang, Guang-Can Guo, Dong-Sheng Ding, and Bao-Sen Shi, ***Deep learning enhanced Rydberg multifrequency microwave recognition***, [ ]( ).
+> Zong-Kai Liu, Li-Hua Zhang, Bang Liu, Zheng-Yuan Zhang, Guang-Can Guo, Dong-Sheng Ding, and Bao-Sen Shi, ***Deep learning enhanced Rydberg multifrequency microwave recognition***.
 
 
 # Abstract
