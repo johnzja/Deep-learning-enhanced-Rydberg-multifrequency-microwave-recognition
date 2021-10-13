@@ -20,6 +20,7 @@ To install all the required packages in one go, we include `environment.yml` fil
 You can create a new environment and replicate the one used to run these notebooks running the following command in a terminal (from the directory containing `environment.yml`):
 
 ```bash
+git clone https://github.com/ZongkaiLiu/Deep-learning-enhanced-Rydberg-multifrequency-microwave-recognition.git
 conda env create -f environment.yml
 ```
 
