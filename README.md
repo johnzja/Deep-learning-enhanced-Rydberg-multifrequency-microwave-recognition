@@ -64,6 +64,7 @@ $pip install scikit-learn==0.22.2
 $pip install --user h5py==2.10.0
 ```
 After installing conda and creating the environment, you should add conda path into your environment variables.
+
 Install time: about 10 minutes.
 
 # Demo
