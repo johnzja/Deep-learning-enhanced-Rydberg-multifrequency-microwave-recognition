@@ -52,20 +52,32 @@ Open the notebook in Google Colab.
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ZongkaiLiu/Deep-learning-enhanced-Rydberg-multifrequency-microwave-recognition/blob/main/notebook/deep_learning.ipynb)
 
 # Install
-The necessary packages can be installed with `conda`. To install all the required packages in one go, we include `environment.yml` file.
-
-You can create a new environment and replicate the one used to run these notebooks running the following command in a terminal (from the directory containing `environment.yaml`):
+The necessary packages can be installed with `conda`. 
 
 ```bash
 $git clone https://github.com/ZongkaiLiu/Deep-learning-enhanced-Rydberg-multifrequency-microwave-recognition.git
 $cd Deep-learning-enhanced-Rydberg-multifrequency-microwave-recognition
-$conda env create -f environment.yml
+$conda create --name keras3 python==3.7.*
+$conda activate keras3
+$pip install tensorflow-gpu==2.1.0
+$pip install keras==2.3.1
+$conda install jupyter notebook
+$pip install matplotlib==3.3.4
+$pip install seaborn==0.11.1
+$pip install scikit-learn==0.22.2
+$pip install --user h5py==2.10.0
 ```
+After installing conda and creating the environment, you should add conda path into your environment variables.
+Install time: about 10 minutes.
 
-Install time: about half an hour.
+# Demo
+After installing, the `deep_learning.ipynb` should be opened by Jupyter notebook.  When running the Jupyter notebook please note that **before running each section, the kernel should be restart (Kernel >> Restart) in case the `%cd` command is wrong**.
 
-# During running
-When running the Jupyter notebook please note that before running each section, the kernel should be restart (Kernel >> Restart) in case the `%cd` command is wrong.
+Then the results (including loss during training and confusion matrix for 4 mw bins, 20 mw bins, etc.) are visualized in the notebook.
+
+The total run time of `deep_learning.ipynb` is about 5 hours.
+
+The results in notebook are slightly different from the results presented in our paper due to the different random seeds.
 
 # License
 This project is covered under the **Apache 2.0 License**.
