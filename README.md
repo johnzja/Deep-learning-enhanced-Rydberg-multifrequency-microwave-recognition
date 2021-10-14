@@ -76,5 +76,7 @@ The total run time of `deep_learning.ipynb` is about 5 hours.
 
 The results in notebook are slightly different from the results presented in our paper due to the different random seeds.
 
+Any questions about the codes or data are welcomed to the email lzk1997@mail.ustc.edu.cn or dds@ustc.edu.cn.
+
 # License
 This project is covered under the **Apache 2.0 License**.
