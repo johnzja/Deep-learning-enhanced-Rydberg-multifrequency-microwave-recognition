@@ -14,15 +14,39 @@ Recognition of multifrequency microwave (MW) electric fields is challenging beca
 
 # Requirements
 
-The code uses Python 3 and test on a computer with GTX1650. The CUDA version is 11.4 and driver version is 471.96 (by ```$nvidia-smi```). The necessary packages can be installed with `conda`.
+## Hardware Requirements
+CPU: Intel core i7-9750H
+RAM: 16 GB
+GPU: GTX 1650 with 4 GB memory.
+
+## Software Requirements
+
+### OS Requirements
+Windows 10
+
+We donot test these codes on different OS.
+
+### CUDA
+
+The CUDA version is 11.4 and driver version is 471.96 (by ```$nvidia-smi```).
+
+### Python Dependencies
+The code uses Python 3.6.11.  The necessary packages are written in `environment.yml` file.
+
+# Install
+The necessary packages can be installed with `conda`.
 To install all the required packages in one go, we include `environment.yml` file.
 
 You can create a new environment and replicate the one used to run these notebooks running the following command in a terminal (from the directory containing `environment.yml`):
 
 ```bash
 $git clone https://github.com/ZongkaiLiu/Deep-learning-enhanced-Rydberg-multifrequency-microwave-recognition.git
+$cd Deep-learning-enhanced-Rydberg-multifrequency-microwave-recognition
 $conda env create -f environment.yml
 ```
 
 # During running
 When running the Jupyter notebook please note that before running each section, the kernel should be restart (Kernel >> Restart) in case the `%cd` command is wrong.
+
+# License
+This project is covered under the **Apache 2.0 License**.
