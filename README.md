@@ -34,6 +34,18 @@ The CUDA version is 11.4 and driver version is 471.96 (by ```$nvidia-smi```).
 
 ### Python Dependencies
 The code uses Python 3.6.11. The necessary packages are written in `environment.yml` file.
+```
+tensorflow-gpu == 2.1.0
+keras == 2.3.1
+matplotlib == 3.3.4
+seaborn == 0.11.1
+scikit-learn == 0.22.2
+pandas == 1.3.3
+numpy == 1.21.2
+scipy == 1.4.1
+jupyter == 1.0.0
+pydot==1.4.2
+```
 
 # Open in Colab
 Open the notebook in Google Colab. 
