@@ -33,7 +33,7 @@ We donot test these codes on different OS.
 The CUDA version is 11.4 and driver version is 471.96 (by ```$nvidia-smi```).
 
 ### Python Dependencies
-The code uses Python 3.6.11. The necessary packages are written in `environment.yml` file.
+The code uses Python 3.6.11. The necessary packages are follows:
 ```
 tensorflow-gpu == 2.1.0
 keras == 2.3.1
@@ -44,7 +44,7 @@ pandas == 1.3.3
 numpy == 1.21.2
 scipy == 1.4.1
 jupyter == 1.0.0
-pydot==1.4.2
+pydot==1.4.2.
 ```
 
 # Install
