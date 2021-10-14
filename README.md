@@ -47,10 +47,6 @@ jupyter == 1.0.0
 pydot==1.4.2
 ```
 
-# Open in Colab
-Open the notebook in Google Colab. 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ZongkaiLiu/Deep-learning-enhanced-Rydberg-multifrequency-microwave-recognition/blob/main/notebook/deep_learning.ipynb)
-
 # Install
 The necessary packages can be installed with `conda`. 
 
