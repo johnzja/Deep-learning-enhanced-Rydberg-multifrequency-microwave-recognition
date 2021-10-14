@@ -38,7 +38,7 @@ The code uses Python 3.6.11. The necessary packages are written in `environment.
 # Install
 The necessary packages can be installed with `conda`. To install all the required packages in one go, we include `environment.yml` file.
 
-You can create a new environment and replicate the one used to run these notebooks running the following command in a terminal (from the directory containing `environment.yml`):
+You can create a new environment and replicate the one used to run these notebooks running the following command in a terminal (from the directory containing `environment.yaml`):
 
 ```bash
 $git clone https://github.com/ZongkaiLiu/Deep-learning-enhanced-Rydberg-multifrequency-microwave-recognition.git
