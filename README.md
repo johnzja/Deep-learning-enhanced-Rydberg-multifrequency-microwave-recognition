@@ -35,6 +35,10 @@ The CUDA version is 11.4 and driver version is 471.96 (by ```$nvidia-smi```).
 ### Python Dependencies
 The code uses Python 3.6.11. The necessary packages are written in `environment.yml` file.
 
+# Open in Colab
+Open the notebook in Google Colab. 
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ZongkaiLiu/Deep-learning-enhanced-Rydberg-multifrequency-microwave-recognition/blob/main/notebook/deep_learning.ipynb)
+
 # Install
 The necessary packages can be installed with `conda`. To install all the required packages in one go, we include `environment.yml` file.
 
