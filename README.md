@@ -48,7 +48,7 @@ pydot==1.4.2.
 ```
 
 # Install
-The necessary packages can be installed with `conda`. 
+The necessary packages can be installed with `conda`. After installing conda and git, run the following codes:
 
 ```bash
 $git clone https://github.com/ZongkaiLiu/Deep-learning-enhanced-Rydberg-multifrequency-microwave-recognition.git
