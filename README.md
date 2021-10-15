@@ -51,17 +51,17 @@ pydot==1.4.2.
 The necessary packages can be installed with `conda`. After installing conda and git, run the following codes:
 
 ```bash
-$git clone https://github.com/ZongkaiLiu/Deep-learning-enhanced-Rydberg-multifrequency-microwave-recognition.git
-$cd Deep-learning-enhanced-Rydberg-multifrequency-microwave-recognition
-$conda create --name keras3 python==3.7.*
-$conda activate keras3
-$pip install tensorflow-gpu==2.1.0
-$pip install keras==2.3.1
-$conda install jupyter notebook
-$pip install matplotlib==3.3.4
-$pip install seaborn==0.11.1
-$pip install scikit-learn==0.22.2
-$pip install --user h5py==2.10.0
+git clone https://github.com/ZongkaiLiu/Deep-learning-enhanced-Rydberg-multifrequency-microwave-recognition.git
+cd Deep-learning-enhanced-Rydberg-multifrequency-microwave-recognition
+conda create --name keras3 python==3.7.*
+conda activate keras3
+pip install tensorflow-gpu==2.1.0
+pip install keras==2.3.1
+conda install jupyter notebook
+pip install matplotlib==3.3.4
+pip install seaborn==0.11.1
+pip install scikit-learn==0.22.2
+pip install --user h5py==2.10.0
 ```
 After installing conda and creating the environment, you should add conda path into your environment variables.
 
