@@ -63,6 +63,8 @@ pip install seaborn==0.11.1
 pip install scikit-learn==0.22.2
 pip install --user h5py==2.10.0
 ```
+If you cannot clone this repo, you can also download these codes and datasets via `Code >> Download ZIP` and `cd` into the folder.
+
 After installing conda and creating the environment, you should add conda path into your environment variables.
 
 Install time: about 10 minutes.
