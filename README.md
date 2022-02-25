@@ -77,6 +77,8 @@ Then the results (including loss during training and confusion matrices, etc.) a
 
 The total run time of `deep_learning.ipynb` is about 5 hours.
 
+`deep_learning_with_results.ipynb` contains the same codes but with results. You can save 5 hours by looking over this notebook.
+
 Running `4bins_fitting.nb`, `20bins_fitting.nb`, and `200MHz_fitting.nb` takes about 2 hours.
 
 Any questions about the codes or data are welcomed to the email lzk1997@mail.ustc.edu.cn or dds@ustc.edu.cn.
